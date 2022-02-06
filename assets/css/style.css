@@ -84,6 +84,12 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   z-index: 9;
   /* countdown */
 }
+#icon img{
+width: 30px;
+border-radius: 70%;
+margin-top: 10px;
+
+}
 #hero .hero-container {
   position: absolute;
   bottom: 0;
@@ -99,7 +105,8 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 }
 p{
 color: #fff;
-text-align: justify;
+text-align: center;
+
 }
 #hero h1 {
   margin: 15px 0 10px 0;
@@ -119,12 +126,12 @@ text-align: justify;
   font-size: 20px;
   font-weight: 300;
   color: #fff;
-  text-align: justify;
+  text-align: center;
   margin: 10px 15px 10px 15px;
 }
 #hero .aboutus{
   background-color: rgba(0, 0, 0, 0.8);
-  padding: 5px 25px 0px 5px;
+  padding: 5px 25px 50px 5px;
   border-radius: 15px;
   color: red;
 
@@ -205,68 +212,15 @@ section {
   color: #999;
 }
 .contact .contact-info a {
-  color: #000;
+  color: #4f92af;
 }
 .contact .contact-info a:hover {
-  color: #4f92af;
+  color: #000;
 }
 .contact .contact-address, .contact .contact-phone, .contact .contact-email {
   margin-bottom: 20px;
 }
-.contact .php-email-form .error-message {
-  display: none;
-  color: #fff;
-  background: #ed3c0d;
-  text-align: left;
-  padding: 15px;
-  font-weight: 600;
-}
-.contact .php-email-form .error-message br + br {
-  margin-top: 25px;
-}
-.contact .php-email-form .sent-message {
-  display: none;
-  color: #fff;
-  background: #18d26e;
-  text-align: center;
-  padding: 15px;
-  font-weight: 600;
-}
-.contact .php-email-form .loading {
-  display: none;
-  background: #fff;
-  text-align: center;
-  padding: 15px;
-}
-.contact .php-email-form .loading:before {
-  content: "";
-  display: inline-block;
-  border-radius: 50%;
-  width: 24px;
-  height: 24px;
-  margin: 0 10px -6px 0;
-  border: 3px solid #18d26e;
-  border-top-color: #eee;
-  -webkit-animation: animate-loading 1s linear infinite;
-  animation: animate-loading 1s linear infinite;
-}
 
-@-webkit-keyframes animate-loading {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}
-@keyframes animate-loading {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}
 @media (min-width: 768px) {
   .contact .contact-phone {
     border-left: 1px solid #ddd;
